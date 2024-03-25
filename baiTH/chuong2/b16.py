@@ -31,4 +31,3 @@ def dao(mang):
             if mang[i][j] == 1:
                 max_area = max(max_area, dfs(i, j))
     print("Diện tích lớn nhất của các đảo là:", max_area)
-
