@@ -1,0 +1,5 @@
+apple:
+- noun: a round fruit with red, yellow, or green skin and firm white flesh (Example: "She ate an apple.")
+dictate:
+- verb: to say or state (something) with authority or power (Example: She's dictating a letter to her secretary.)
+- noun: an order or direction given with authority - usually plural (Example: She's dictating a letter to her secretary.)
