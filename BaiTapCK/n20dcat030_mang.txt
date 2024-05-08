@@ -3,3 +3,4 @@ apple:
 dictate:
 - verb: to say or state (something) with authority or power (Example: She's dictating a letter to her secretary.)
 - noun: an order or direction given with authority - usually plural (Example: She's dictating a letter to her secretary.)
+

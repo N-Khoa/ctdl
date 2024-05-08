@@ -60,12 +60,9 @@ class TuDien:
                 elif tuMoi:
                     parts = line.strip().split(":")
                     if len(parts) == 3:
-                        tuLoai = parts[0].strip()
-                        tuLoai = tuLoai.strip(" -").strip()
-                        moTa = parts[1].strip()
-                        moTa = moTa.rstrip(" (Example")
-                        viDu = parts[2].strip()
-                        viDu = viDu.strip(" -").rstrip(")")
+                        tuLoai = parts[0].strip().strip(" -").strip()
+                        moTa = parts[1].strip().rstrip(" (Example")
+                        viDu = parts[2].strip().rstrip(")")
                         tuMoi.ThemMoTa(tuLoai, moTa, viDu)
 
 def BaiTapLon():  
