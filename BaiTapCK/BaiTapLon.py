@@ -1,5 +1,3 @@
-import os
-
 # Tạo ra 1 lớp để lưu mô tả của một từ trong từ điển.
 class MoTa:
     def __init__(self, loaiTu, moTa, viDu):
@@ -63,8 +61,11 @@ class TuDien:
                     parts = line.strip().split(":")
                     if len(parts) == 3:
                         tuLoai = parts[0].strip()
+                        tuLoai = tuLoai.strip(" -").strip()
                         moTa = parts[1].strip()
+                        moTa = moTa.rstrip(" (Example")
                         viDu = parts[2].strip()
+                        viDu = viDu.strip(" -").rstrip(")")
                         tuMoi.ThemMoTa(tuLoai, moTa, viDu)
 
 def BaiTapLon():  
